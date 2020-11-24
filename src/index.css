@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Welcome {
+  background-image: url("../src/Images/small-bouquet-lilies-valley-soft-pink-background_99432-3411.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Login {
+}
+
+.Register-Login {
+  background-image: url("../src/Images/pexels-photo-1831234.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.Register-Login-Inner {
+  padding: 100px 0px;
+}
+
+.Button {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: fit-content;
+  align-self: center;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.Form label {
+  float: left;
+  width: 25%;
+}
+
+.Form input {
+  border-radius: 10px;
+  float: right;
+  width: 65%;
+}
+
+.Dashboard {
+  background-image: url("../src/Images/1c2b4dd30c047797112fd817289ce1f1.jpg");
+  height: 100vh;
+}
+
+.Dashboard-Inner {
+  background-color: white;
+  display: inline-block;
+  margin: 100px;
+  width: 300px;
+  height: -webkit-fill-available;
+}
+img {
+  width: 60px;
+  height: 60px;
 }

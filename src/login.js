@@ -18,7 +18,7 @@ const Login = () => {
   };
   const getRegisteredUsers = () => {
     return localStorage.getItem("users");
-  }; //kte funksionin e pash dhe te file tj. te italianet ky duhej futur ne nje file helpers.js psh dhe e beje export atje, import ktu
+  }; 
 
   const allUsers = getRegisteredUsers();
   const parsedUsers = JSON.parse(allUsers);
@@ -91,4 +91,3 @@ const Login = () => {
 };
 export default Login;
 
-//pasi behet register mir esh ta coje te faqa e login. dmth nuk updeton authenticated user heren e pare kupton? vazhdon me kodin ne vend qe te updetoj staten ktu ku ta tregoj tani
